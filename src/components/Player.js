@@ -11,6 +11,8 @@ function Player() {
         })
     );
     body.position.z = 10;
+    body.receiveShadow = true;
+    body.castShadow = true;
 
     return body;
 }
